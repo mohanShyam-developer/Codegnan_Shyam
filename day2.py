@@ -1,13 +1,14 @@
-print("Weclome to Codegnan")
 
-print("Name : Mohan shyam")
+#user details
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 
-print("College : VIGNAN'S Institute of Information Technology")
+print("\n--- User Details ---")
+print("Hello,", name + "!")
+print("You are", age, "years old.")
 
-print("Branch : Information Technology")
-
-print("City : Visakhapatnam")
-
-print("State : Andhra Pradesh ")
-
-print("Contact Number : 8074451670 ")
+#logic
+if age >= 18:
+    print("You are eligible to vote.")
+else:
+    print("You are not eligible to vote yet.")
