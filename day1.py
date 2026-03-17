@@ -1,6 +1,3 @@
-
-
-
 print("Weclome to Codegnan")
 
 print("Name : Mohan shyam")
