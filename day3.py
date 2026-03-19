@@ -1,4 +1,4 @@
-
+#Smart Expense Calculator
 print("Welcome to Smart Expense Calculator".center(80))
 print("-" * 50)
 
