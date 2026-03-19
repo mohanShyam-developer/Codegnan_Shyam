@@ -1,5 +1,5 @@
 
-#user details
+#USER DETAILS
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 
@@ -7,7 +7,7 @@ print("\n--- User Details ---")
 print("Hello,", name + "!")
 print("You are", age, "years old.")
 
-#logic
+#LOGIC
 if age >= 18:
     print("You are eligible to vote.")
 else:
