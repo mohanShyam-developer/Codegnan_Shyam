@@ -1,13 +1,3 @@
-
-
-##name=input("enter name:")
-##book_tickets="Dhurandhar"
-##ticket_cost=int(input("enter ticket amount:"))
-##
-####if 270 == ticket_cost:
-##    print(" ticket confirmed for Dhurander")
-##else :
-##    print("ticket confirmed for Ustaad Bhagat Singh")
 '''
 student_marks=int(input(" Enter marks :"))
 if student_marks>=90:
@@ -23,18 +13,50 @@ else:
 num_1=int(input("Enter number :"))        
 num_2=int(input("Enter number :"))
 '''
-a=input()
-print(eval(a))
+print("------ MOBILE RECHARGE SYSTEM ------")
 
+choice = "yes"
 
+while choice == "yes":
 
+    print("\nAvailable Recharge Plans:")
+    print("1. ₹199 Plan - 28 Days Validity")
+    print("2. ₹399 Plan - 56 Days Validity")
+    print("3. ₹599 Plan - 84 Days Validity")
+    print("4. ₹999 Plan - 84 Days + Extra Data")
 
+    plan = int(input("\nEnter plan number: "))
 
+    # Plan selection using elif
 
+    if plan == 1:
+        amount = 199
+        validity = 28
 
+    elif plan == 2:
+        amount = 399
+        validity = 56
 
+    elif plan == 3:
+        amount = 599
+        validity = 84
 
+    elif plan == 4:
+        amount = 999
+        validity = 84
 
+    else:
+        print("Invalid plan selected!")
+        continue
+
+    # Output
+    print("\n------ RECHARGE SUCCESSFUL ------")
+    print("Recharge Amount: ₹", amount)
+    print("Validity:", validity, "days")
+
+    choice = input("\nDo you want another recharge? (yes/no): ")
+
+print("\nRecharge System Closed.")
 
 
 
