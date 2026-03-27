@@ -96,95 +96,54 @@ print(any.replace("python","java"))'''
 ##
 ### 9.Check if sentence ends with 'codegnan'
 ##print("\nEnds with 'codegnan'?")
-##print(statement.endswith("codegnan"))
+##print(statement.endswith("codegnan")
 
 
 
 #User Registration Formatter
 
-##name = input("Enter your full name: ").strip()
-##email = input("Enter your email: ").strip()
-##
-##print("\n----- USER DETAILS -----")
-##
-### Format name
-##formatted_name = name.title()
-##print("Formatted Name:", formatted_name)
-##
-### Create username
-##username = name.lower().replace(" ", "_")
-##print("Generated Username:", username)
-##
-### Email analysis
-##at_pos = email.find("@")
-##
-##if at_pos != -1:
-##    
-##    email_name = email[:at_pos]
-##    domain = email[at_pos+1:]
-##
-##    print("Email Username:", email_name)
-##    print("Email Domain:", domain)
-##
-##else:
-##    print("Invalid Email")
-##
-### Name details
-##words = name.split()
-##
-##print("First Name:", words[0])
-##print("Last Name:", words[-1])
-##
-### Initials
-##print("Initials:", words[0][0], words[-1][0])
-##
-### Length check
-##print("Total Name Characters:", len(name.replace(" ", "")))
+name = input("Enter your full name: ").strip()
+email = input("Enter your email: ").strip()
 
-##vow_con=input("enter a letter :")
-##if vowel_con in "AEIOUaeiou":
-##    print("vowel")
-##else:
-##    print("con")
+print("\n----- USER DETAILS -----")
 
-##time_a_day=input("enter 24 hours time:")
-##parts=time_a_day.split(":")
-##hours=int(parts[0])
-##mintues=int(parts[1])
-##if hours>=13 and minutes<=60:
-##    print(f"{time_a_day} convert into {hours-12}:
-##
+# Format name
+formatted_name = name.title()
+print("Formatted Name:", formatted_name)
 
-##time=input("enter a 24 hour format (HH:MM):")
-##hour,minute=time.split(":")
-##hour=int(hour)
-##if hour==0:
-##    hour12=12
-##    period="AM"
-##elif hour<12:
-##    hour12=hour
-##    period="AM"
-##elif hour==12:
-##    hour12=12
-##    period="PM"
-##else:
-##    hour12=hour-12
-##    period="PM"
-##print("12 hour format:",hour12,":",minute,period)       
-##print("12 format:",hour12,":",minute,period)
+# Create username
+username = name.lower().replace(" ", "_")
+print("Generated Username:", username)
 
-##
-##list_1=[1,2,3,"Python",[1,2,["Python","Java"],"Language"]]
-##result=list_1[4][3][3]
-##print(result)
+# Email analysis
+at_pos = email.find("@")
+
+if at_pos != -1:
+    
+    email_name = email[:at_pos]
+    domain = email[at_pos+1:]
+
+    print("Email Username:", email_name)
+    print("Email Domain:", domain)
+
+else:
+    print("Invalid Email")
+
+# Name details
+words = name.split()
+
+print("First Name:", words[0])
+print("Last Name:", words[-1])
+
+# Initials
+print("Initials:", words[0][0], words[-1][0])
+
+# Length check
+print("Total Name Characters:", len(name.replace(" ", "")))
 
 
-lists=[1,2,3,4,5,6]
-print(lists)
-lists.append(24)
-print(lists)
-lists.append
-print(lists)
+
+
 
 
 
